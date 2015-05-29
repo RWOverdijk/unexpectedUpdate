@@ -17,7 +17,7 @@ module.exports = {
     }
   },
   afterUpdate: function (updated, next) {
-    console.log('moord en doodslag', updated);
+    console.log('This makes me sad', updated);
     next();
   }
 };
